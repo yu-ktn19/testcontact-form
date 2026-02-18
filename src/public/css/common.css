@@ -1,0 +1,17 @@
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #bc917f;
+}
+
+.header_inner {
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.header_logo {
+    color: #bc917f;
+    text-align: center;
+}

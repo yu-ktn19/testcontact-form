@@ -1,0 +1,174 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__logo {
+    font-size: 40px;
+    color: #bc917f;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+input,
+select,
+textarea {
+    border: none;
+    background: #f5f5f5;
+}
+
+.form__input--checke {
+    color: #A19487;
+    display: flex;
+    gap: 40px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.radio input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #8b6b5a;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.radio input[type="radio"]:checked {
+    background: #8b6b5a;
+}
+
+.form__input--call input::placeholder {
+    color: #A19487;
+    text-align: center;
+}
+
+::placeholder {
+    color: #A19487;
+}
+
+.form__group {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.form__group-title {
+    width: 220px;
+    text-align: left;
+}
+
+.form__label--item {
+    color: #bc917f;
+}
+
+.form__group-content {
+    flex: 1;
+}
+
+
+.form__label--caution {
+    border-radius: 3px;
+    background: white;
+    color: red;
+}
+
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 3px;
+}
+
+.form__input--text input {
+    height: 30px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+    resize: none;
+}
+
+.form__input--text {
+    display: flex;
+    gap: 40px;
+}
+
+.form__input--text input {
+    flex: 1;
+}
+
+.select__wrapper {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 25px;
+}
+
+.select__wrapper select {
+    width: 100%;
+    padding-right: 40px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select__wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-top: 11px solid #9e7c6d;
+    pointer-events: none;
+}
+
+select {
+    height: 30px;
+    color: #9e7c6d;
+}
+
+select:valid {
+    color: #333;
+}
+
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: #8b6b5a;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,193 @@
+.header__button {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__button-submit {
+    font-size: 15px;
+    border: none;
+    padding: 6px 24px;
+    border: 1px solid #d8cfc8;
+    background: #f5f5f5;
+    color: #A19487;
+    cursor: pointer;
+}
+
+.contact-form__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__logo {
+    font-size: 40px;
+    color: #bc917f;
+}
+
+::placeholder {
+    color: #A19487;
+    text-align: center;
+}
+
+.form,
+.create-form {
+    margin: 0 30vh;
+    height: 50px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__input--text input {
+    width: 40vh;
+    font-size: 15px;
+}
+
+select,
+.form__input--date input {
+    width: 20vh;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #A19487;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select__gender,
+.select__wrapper,
+.form__input--date {
+    position: relative;
+}
+
+input[type="date"] {
+    width: 180px;
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.select__gender::after,
+.select__wrapper::after,
+.form__input--date::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: 12px;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    border-top: 16px solid #9e7c6d;
+}
+
+.select__gender select {
+    width: 11vh;
+}
+
+.select__wrapper select {
+    width: 30vh;
+    margin-left: -1vh;
+}
+
+.form__input--text input,
+.select__gender select,
+.select__wrapper select,
+.form__input--date input {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+    border: 1px solid #d8cfc8;
+    background-color: #FBFBFB;
+}
+
+.select__gender select,
+.form__input--date input {
+    margin-left: -1vh;
+}
+
+.form__button,
+.form__button-function {
+    text-align: center;
+}
+
+.form__button-submit--search,
+.form__button-submit--reset {
+    padding: 10px;
+    width: 10vh;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-submit--search {
+    background: #8b6b5a;
+}
+
+.form__button-submit--reset {
+    background: #D9C6B5;
+    margin-left: 6vh;
+}
+
+.form__button-submit--export {
+    margin-top: 20px;
+    padding: 0 10px;
+    width: 15vh;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    color: #A19487;
+    cursor: pointer;
+}
+
+.contact-table {
+    width: 71%;
+    max-width: 71%;
+    margin: 20px auto;
+}
+
+tr {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #8B7969;
+    height: 8vh;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    font-size: 18px;
+    height: 10vh;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #8b6b5a;
+}
+
+.table__button-submit {
+    padding: 10px;
+    width: 10vh;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background: #FBFBFB;
+    border: 1px solid #bc917f;
+    color: #bc917f;
+    cursor: pointer
+}

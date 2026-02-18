@@ -1,0 +1,52 @@
+.contact-form__content {
+    margin: auto;
+    max-width: 1230px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.contact-form__thanks {
+    margin: 50px auto;
+}
+
+.contact-form__thanks,
+.form__button {
+    text-align: center;
+}
+
+
+.contact-form__color {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    color: #8b6b5a;
+}
+
+.contact-form__thanks::before {
+    content: "Thank you";
+    position: absolute;
+    font-size: 300px;
+    color: rgba(209, 201, 173, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: -1;
+}
+
+.form__button-submit--post {
+
+    padding: 12px;
+    width: 30%;
+    min-width: 150px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background: #8b6b5a;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap
+}
